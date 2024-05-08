@@ -1,0 +1,56 @@
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr [col-start]);/* 18 columns */
+    grid-template-rows: repeat(7, 90px [col-start]);/* 7ro ws */
+    
+  }
+ 
+  /* mettre en place les element */
+  .periodic-table .element {
+    border: 2px solid #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    border: 1px;
+  }
+  /* 1er élément  */ 
+.periodic-table .element.-n1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  /* 2ème élément  */ 
+  .periodic-table .element.-n2 {
+    grid-column: 18/19;
+    grid-row: 1/2;
+  }
+  /* 3ème élément  */ 
+  .periodic-table .element.-n2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  /* 58ème élément  */ 
+  .periodic-table .element.-n4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  
+  /* 108ème élément  */ 
+  .periodic-table .element.-n108 {
+    grid-column: 8/9;
+    grid-row: 7/8;
+  }
+  
+  /* 103ème élément  */ 
+  .periodic-table .element.-n103 {
+    grid-column: 17/18;
+    grid-row: 10/11;
+  }
+  
+  /* 90ème élément  */ 
+  .periodic-table .element.-n90 {
+    grid-column: 18/19;
+    grid-row: 7/8;
+  }
